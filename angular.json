@@ -87,6 +87,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
+            "codeCoverage": true,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "introPruebasUnitarias"
+    }
+  },
+  "defaultProject": "introPruebasUnitarias",
+  "cli": {
+    "analytics": "9d6cf5f1-8698-4713-9e33-7e97226c2d30"
+  }
 }
